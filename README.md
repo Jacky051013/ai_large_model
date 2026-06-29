@@ -1,10 +1,6 @@
-# AI Large Model Course
+# AI Large Model
 
-这个仓库整理自本地课程目录：
-
-`/Users/jacky/jupyter_notebook/AI大模型课程`
-
-内容以 Jupyter Notebook 为主，覆盖大模型 API 调用、提示工程、LangChain 基础组件、记忆、RAG 和 Agent 等主题。
+这是一个 AI 大模型项目，内容以 Jupyter Notebook 为主，覆盖大模型 API 调用、提示工程、LangChain 基础组件、记忆、RAG 和 Agent 等主题。
 
 ## 目录结构
 
@@ -17,10 +13,10 @@
 ├── RAG/                  # 文档加载、文本切分、Embedding、Vector Store、Retrieval Chain
 ├── Agent/                # Agent、Tools、代码执行和表格分析示例
 ├── use_of_AI_api/        # 文本总结、撰写、分类、翻译 API 示例
-└── *.ipynb               # 课程演示和综合练习 Notebook
+└── *.ipynb               # 项目演示和综合练习 Notebook
 ```
 
-## 课程内容
+## 项目内容
 
 - 大模型 API 基础：发送请求、理解 token 计费、调整生成参数。
 - 提示工程：限定输出格式、零样本与小样本提示、分步骤思考。
