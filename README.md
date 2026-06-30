@@ -13,6 +13,7 @@
 ├── RAG/                  # 文档加载、文本切分、Embedding、Vector Store、Retrieval Chain
 ├── Agent/                # Agent、Tools、代码执行和表格分析示例
 ├── use_of_AI_api/        # 文本总结、撰写、分类、翻译 API 示例
+├── projects/AI_Project/  # AI 应用项目集合
 └── *.ipynb               # 项目演示和综合练习 Notebook
 ```
 
@@ -25,6 +26,7 @@
 - RAG：加载外部文档、文本切分、向量嵌入、向量存储和检索增强生成。
 - Agent：自定义工具、执行 Python 代码、使用工具分析数据表格。
 - API 应用案例：文本总结、文案撰写、问题分类和文本翻译。
+- AI 项目集合：聊天机器人、视频脚本生成、CSV 分析、PDF 问答、天气工具调用等应用示例。
 
 ## 运行方式
 
@@ -41,6 +43,7 @@ jupyter notebook
 
 ```bash
 export OPENAI_API_KEY="你的 API Key"
+export OPENWEATHER_API_KEY="你的 OpenWeather API Key"
 ```
 
 部分 Notebook 使用了自定义 `OPENAI_BASE_URL` 或兼容 OpenAI API 的第三方接口，请根据自己的服务地址调整。
